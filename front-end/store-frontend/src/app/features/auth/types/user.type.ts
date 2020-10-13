@@ -13,3 +13,7 @@ export interface User {
 
   city: string
 }
+
+export interface Credentials {
+  email: string;
+}
