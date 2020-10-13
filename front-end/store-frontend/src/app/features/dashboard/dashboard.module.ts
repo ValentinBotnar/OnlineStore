@@ -1,18 +1,16 @@
 import { NgModule } from '@angular/core';
-import { UserRoutingModule } from './user-routing.module';
-
+import { DashboardComponent } from './containers/dashboard/dashboard.component';
 
 const declarations = [
+  DashboardComponent
 ];
 
 @NgModule({
   declarations: [...declarations],
   entryComponents: [
-  
   ],
   imports: [
-    UserRoutingModule
   ],
   providers: [],
 })
-export class UserModule {}
+export class DashboardModule {}
