@@ -38,7 +38,6 @@ export class AuthEffect {
             catchError(({ message }) => of(signinError({ message })))
           )
         }
-
       })
     )
   )
